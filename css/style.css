@@ -453,8 +453,8 @@ font-weight: 700;
     }
     }
     @media(max-width:360px){
-        .left-side p {
-        font-size: 16px;
+          .left-side p {
+        font-size: 12px;
     }
         .left-side h1 {
         font-size: 33px;
@@ -518,6 +518,32 @@ font-weight: 700;
 }
 .image-1 img {
     width: 100%;
+}
+
+.card-part img {
+  
+    height: 70px;
+}
+.sec-5 {
+    background-color: white;
+    color: rgb(2, 2, 63);
+    width: 100%;
+    padding: 20px;
+}
+.write-sec {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.content-right {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .sec-7-content {
+    margin-top: 32px;
+}
+.icon-part {
+    padding: 30px;
+    margin-top: 21px;
 }
     }
     @media (max-width:320px){
