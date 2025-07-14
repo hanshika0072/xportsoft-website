@@ -29,6 +29,9 @@ li.button-sec ul a{
 .left-side {
     margin-top: 16%;
 }
+.left-side{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
+}
 .left-side p {
     color: grey;
     font-size: 20px;
@@ -62,6 +65,9 @@ li.button-sec ul a{
 .right-info img {
     width: 100%;
 }
+.right-info{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
+}
 /* sec-2 ended here */
 
 .sec-3{
@@ -75,6 +81,9 @@ li.button-sec ul a{
     text-align: center;
     margin-top: 35px;
     
+}
+.content-sec{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
 }
 .content-sec h2{
  color: black;
@@ -90,9 +99,13 @@ li.button-sec ul a{
     border-radius: 20px;
 }
 .card-sec{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
+}
+.card-sec{
     transition: 0.5s ease;
 padding: 10px;
 }
+
 .card-sec:hover{
     background-color: white;
     transform: scale(0.9);
@@ -117,10 +130,16 @@ padding: 10px;
     font-size: 40px;
         margin-top: 40px;
 }
+.section-4-part{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
+}
 .section-4-part h2 span{
     color: white;
     font-size: 40px;
     font-weight: 700;
+}
+.card-part{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
 }
 .card-part {
     color: white;
@@ -208,7 +227,12 @@ text-align: center;
    .part-1{
     margin-top: 20px;
    }
-
+   .part-1{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
+   }
+   .part-2{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
+   }
    .down-centre-sec{
       color: white;
     border-radius: 30px;
@@ -218,7 +242,7 @@ text-align: center;
     margin-top: 20px;
    }
    .sec-5-button a{
-     font-size: 20px;
+     font-size: 20px; 
     margin-top: 40px;
     background: blue;
     padding: 10px 20px;
@@ -242,6 +266,9 @@ text-align: center;
 text-align: center;
     margin-bottom: 30px;
    }
+   .write-sec{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
+   }
    .write-sec h2{
    font-size: 40px;
 color: rgb(0, 0, 71);
@@ -252,6 +279,9 @@ color: rgb(0, 0, 71);
 font-weight: 700;
 
 
+   }
+   .content-right{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
    }
    .content-right h2{
     font-size: 35px;
@@ -272,6 +302,9 @@ font-weight: 700;
    .image-sec {
     margin-top: 45px;
 }
+.image-sec{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
+}
 .content-right{
       margin-top: 100px;
 }
@@ -281,6 +314,9 @@ width: 100%;
 }
 .sec-7-content{
     margin-top: 60px;
+}
+.sec-7-content{
+    animation: leftse 2s ease-in-out 0.25s normal forwards;
 }
 .sec-7-content h2{
 text-align: center;
@@ -292,6 +328,9 @@ font-weight: 700;
     background-color: rgba(207, 207, 207, 0.315);
     padding: 30px;
     margin-top: 50px;
+}
+.icon-part{
+    animation: rightse 2s ease-in-out 0.25s normal forwards;
 }
 .image-1 img{
    width: 57%;
@@ -585,3 +624,21 @@ font-weight: 700;
         font-size: 21px;
     }
     }
+@keyframes leftse{
+    from{
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightse{
+    from{
+        transform: translateX(900px);
+    }
+    to{
+        transform: translateX(0);
+       
+    }
+}
